@@ -169,29 +169,15 @@ public class Cola {
 							b=Double.parseDouble(auxiliar.Pop());
 						resultado=Math.pow(b, a);
 						break;
-					case 'q':
-						resultado=Math.sqrt(a);
-						break;
-					case 's':
-						if(a%180==0)
-							resultado=0.0;
-						else
-							resultado=Math.sin(Math.toRadians(a));
-						break;
+					
+					
 					case 'c':
 						if(a%90==0 && (a/90)%2==1)
 							resultado=0.0;
 						else
 							resultado=Math.cos(Math.toRadians(a));
 						break;
-					case 't':
-						if(a%90==0 && (a/90)%2==1)
-							throw new TangenteError();
-						else if(a.equals(180.0) || a.equals(360.0))
-							resultado=0.0;
-						else
-							resultado=Math.tan(Math.toRadians(a));
-						break;
+				
 				}
 				System.out.println(b+this.Pop()+a+"= "+resultado);
 				auxiliar.Push(resultado+"");
