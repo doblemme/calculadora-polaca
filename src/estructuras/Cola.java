@@ -171,12 +171,7 @@ public class Cola {
 						break;
 					
 					
-					case 'c':
-						if(a%90==0 && (a/90)%2==1)
-							resultado=0.0;
-						else
-							resultado=Math.cos(Math.toRadians(a));
-						break;
+				
 				
 				}
 				System.out.println(b+this.Pop()+a+"= "+resultado);
