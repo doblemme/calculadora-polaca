@@ -2,7 +2,7 @@ package estructuras;
 
 import excepciones.ColaVacia;
 import excepciones.PilaVacia;
-import excepciones.TangenteError;
+
 
 
 public class Cola {
