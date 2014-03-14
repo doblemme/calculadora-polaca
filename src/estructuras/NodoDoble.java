@@ -1,6 +1,6 @@
 package estructuras;
 
-public class NodoDoble {
+public class Nodo {
 	private String dato;
 	private NodoDoble siguiente;
 	private NodoDoble anterior;
